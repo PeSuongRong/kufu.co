@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CompHeader></CompHeader>
+    <router-link to="/contact">Contact</router-link>
+    <router-view />
+    <CompFooter></CompFooter>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CompHeader from './components/compHeader'
+import CompFooter from './components/compFooter'
 
 export default {
-  name: 'App',
+  name: 'app',
+  data () {
+    return {
+      
+    }
+  },
   components: {
-    HelloWorld
+    CompHeader,
+    CompFooter
+
+  },
+  mounted(){
+  
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import './css/all.scss';
 </style>

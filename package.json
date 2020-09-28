@@ -12,10 +12,14 @@
     "core-js": "^3.6.5",
     "express": "^4.17.1",
     "install": "^0.13.0",
+    "jQuery": "^1.7.4",
+    "jsdom": "^16.4.0",
+    "location": "0.0.1",
+    "navigator": "^1.0.1",
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
-    "vue-jquery": "^1.0.6",
-    "vue-router": "^3.4.5"
+    "vue-router": "^3.4.5",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -24,6 +28,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.5.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -44,5 +51,7 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "_id": "kufu.co@0.1.0",
+  "readme": "ERROR: No README data found!"
 }
